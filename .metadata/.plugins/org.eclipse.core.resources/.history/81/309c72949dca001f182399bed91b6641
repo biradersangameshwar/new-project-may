@@ -1,0 +1,36 @@
+package vanshika;
+
+public class Polymorlphism_overriding {
+
+	public static void main(String[] args) {
+		 
+		account acc;
+		acc.new savingaccount();
+	}
+}
+class account{
+	void processtransaction (double amount) {
+		System.out.println("transaction:"+ amount);
+	}	
+	}
+class savingaccount extends account {
+	void processtransaction (double amount) {
+		System.out.println("savingaccount:deposite" +amount);
+	}
+}
+class currentaccount extends account{
+	void processtransaction (double amount) {
+		System.out.println("currentaccount:withdraws" +amount);
+	}
+}
+class fixedaccount extends account{
+	void processtransaction (double amount) {
+		System.out.println("fixedaccount: "+amount+"this is a investment");
+	}
+}
+	
+	
+	
+	
+	
+	

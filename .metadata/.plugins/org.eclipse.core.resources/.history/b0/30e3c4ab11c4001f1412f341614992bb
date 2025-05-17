@@ -1,0 +1,10 @@
+package vanshika;
+
+public class Overloding_constractor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

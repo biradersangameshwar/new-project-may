@@ -1,0 +1,15 @@
+package array;
+
+public class Ariy {
+
+	public static void main(String[] args) {
+		
+		String s = "10";
+		System.out.println(s);
+		//System.out.println(String.valueOf(s));
+		int i  = 20;
+		
+
+	}
+
+}

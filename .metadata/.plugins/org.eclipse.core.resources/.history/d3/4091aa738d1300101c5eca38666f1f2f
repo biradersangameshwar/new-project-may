@@ -1,0 +1,15 @@
+package imp_java_programms;
+
+public class Largest_num {
+
+	public static void main(String[] args) {
+
+		int a=12;
+		int b=35;
+		int c=74;
+		
+		int max=Math.max(a, Math.max(b, c));
+		System.out.println(max);
+		
+	}
+	}

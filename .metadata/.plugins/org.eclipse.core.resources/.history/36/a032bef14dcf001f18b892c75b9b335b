@@ -1,0 +1,15 @@
+package vanshika;
+
+public class Demo_string {
+
+	public static void main(String[] args) {
+		 
+		int num = 123;
+		int num2 =456;
+		int num3 =789;
+		System.out.println(num);
+		System.out.println(num2);
+		System.out.println(num3);
+	}
+
+}

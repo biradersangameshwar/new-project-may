@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\Admin\git\ecom_project\.git"/>
+	<list key="CommitDialog.authorValues">
+		<item value="Admin &lt;Admin@DESKTOP-T7PUVCL&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Admin &lt;Admin@DESKTOP-T7PUVCL&gt;"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/sujeetspeedway/ecom_project"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="GitImportWizard">
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+</section>

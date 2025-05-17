@@ -1,0 +1,27 @@
+package automation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Calender {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		driver.get("https://demoqa.com/date-picker");
+		Thread.sleep(2000);
+		
+		WebElement ele = driver.findElement(By.id("datePickerMonthYearInput"));
+		ele.click();
+		Thread.sleep(4000);
+		WebElement ele1 = driver.findElement(By.xpath("(//div[@class='react-datepicker__day react-datepicker__day--003'])"));
+		ele1.click();
+		Thread.sleep(2000);
+		driver.close();
+		
+	}
+
+}

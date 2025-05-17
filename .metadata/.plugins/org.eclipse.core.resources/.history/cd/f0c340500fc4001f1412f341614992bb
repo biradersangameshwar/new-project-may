@@ -1,0 +1,18 @@
+package vanshika;
+
+public class Paremeter {
+
+	public static void main(String[] args) {
+		
+		System.out.println("this is beginning");
+		
+		emp e1 = new emp(101,"eramma");
+	}
+
+	class emp{
+		emp(int id, String name){
+			System.out.println(id+""+name);
+		}
+	}
+
+}

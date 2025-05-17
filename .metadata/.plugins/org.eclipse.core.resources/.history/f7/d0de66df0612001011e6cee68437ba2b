@@ -1,0 +1,16 @@
+
+public class rev {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+		String str = "sangam";
+		
+		StringBuilder sb = new StringBuilder();
+		System.out.println(sb.reverse().toString());
+
+	}
+
+}

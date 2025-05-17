@@ -1,0 +1,27 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class Demo_collection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("This is beginning");
+		
+		ArrayList<String> name = new ArrayList<String>();
+		System.out.println(name.getClass().getName());
+		
+	      name.add("sangam");
+	      name.add("raju");
+	      name.add("hari");
+	      name.add("mahesh");
+	      
+	      System.out.println(name);
+	      name.add(1, "hari");
+	      System.out.println(name.get(3));
+	      name.remove(0);
+       System.out.println(name);
+	}
+
+}

@@ -1,0 +1,16 @@
+package data_driven_testing;
+
+public class Login_Logut {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Excellibrary xl = new Excellibrary();
+		String un = xl.getexceldata("sheet1", 1, 0);
+		System.out.println(un);
+		String pw = xl.getexceldata("sheet1", 1, 1);
+		System.out.println(pw);
+
+	}
+
+}

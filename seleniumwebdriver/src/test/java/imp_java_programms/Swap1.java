@@ -1,0 +1,14 @@
+package imp_java_programms;
+
+public class Swap1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         int a=2,b=3,c=a;
+         System.out.println("value of a: "+a+" value of b:"+b); 
+         a=b;
+         b=c;
+         System.out.println("value of a: "+a+" value of b:"+b); 
+	}
+
+}

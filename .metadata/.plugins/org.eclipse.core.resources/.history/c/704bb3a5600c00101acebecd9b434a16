@@ -1,0 +1,52 @@
+package selenium_27March;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Demo_Frames {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+        driver.get("https://speedwaytech.co.in/testing/frames/frames.html");
+        Thread.sleep(2000);
+        driver.switchTo().frame(1);
+        Thread.sleep(2000);
+        WebElement ele = driver.findElement(By.name("rep"));
+        System.out.println(ele);
+        boolean display = ele.isDisplayed();
+        System.out.println(display);
+        boolean select = ele.isSelected();
+        System.out.println(select);
+        ele.click();
+        boolean select1 = ele.isSelected();
+        System.out.println(select1);
+        boolean enabled = ele.isEnabled();
+        System.out.println(enabled);
+        driver.switchTo().defaultContent();
+        WebElement fram = driver.findElement(By.xpath("//frame[@src='frame3.html']"));
+        driver.switchTo().frame(fram);
+        driver.findElement(By.name("check")).click();
+        driver.switchTo().parentFrame();
+        driver.switchTo().frame("frame2");
+        driver.findElement(By.name("name")).sendKeys("sangam");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        Thread.sleep(2000);
+        driver.close();
+		
+	}
+
+}

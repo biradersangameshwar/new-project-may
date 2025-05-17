@@ -1,0 +1,51 @@
+package testng_demo;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+
+public class Assertin {
+	
+	WebDriver driver;
+	
+	
+  @Test
+  public void googletitle() {
+	  driver.get("https://www.google.com/");
+	  String actualtitle = driver.getTitle();
+	  String expectedtitle = "Googl";
+	  Assert.assertEquals(actualtitle,expectedtitle);
+	  System.out.println("this is hard assert");
+  }
+	  
+	  @Test
+	  public void agile() {
+		  driver.get("https://agilekey.co.in/");
+		  String actualurl = driver.getCurrentUrl();
+		  String expectedurl = "https://agilekey.co.i/";
+		  SoftAssert sa = new SoftAssert();
+		  sa.assertEquals(actualurl, expectedurl);
+		  System.out.println("This is softassert");
+		  //sa.assertAll();
+		  
+		  
+		  
+	  }
+@BeforeMethod
+  public void beforeMethod() {
+	   driver = new ChromeDriver();
+	  driver.manage().window().maximize();
+
+	  
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+	 driver.close();
+  }
+
+}

@@ -1,0 +1,36 @@
+package javaScriptexe;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Jse3 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://login.yahoo.com/");
+		WebElement ele =driver.findElement(By.id("login-username"));
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].value = 'sangam'",ele);
+        Thread.sleep(2000);
+        jse.executeScript("document.body.style.zoom = '50%'");
+        Thread.sleep(2000);
+        jse.executeScript("document.body.style.zoom = '150%'");
+        Thread.sleep(2000);
+        jse.executeScript("window.scrollby (0,200)");
+        
+        
+        
+        
+        
+        
+        Thread.sleep(2000);
+        driver.close();
+        
+	}
+
+}

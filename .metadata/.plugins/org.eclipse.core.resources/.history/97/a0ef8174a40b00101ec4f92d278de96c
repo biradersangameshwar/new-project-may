@@ -1,0 +1,23 @@
+package constructr;
+
+public class Feepayments {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+abstract class payment{
+	 
+	public void examfee() {
+		System.out.println("Payment made through google pay");
+		
+	}
+}
+
+
+
+
+

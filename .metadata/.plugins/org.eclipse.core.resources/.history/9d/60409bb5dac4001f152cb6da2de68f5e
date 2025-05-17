@@ -1,0 +1,39 @@
+package vanshika;
+
+public class This_class {
+
+	public static void main(String[] args) {
+		
+		
+		
+		class collage {
+			int id;
+			String name ;
+			public void display(int id ,String name) {
+				 this.id=id;
+				 this.name=name;
+				 System.out.println( id+""+name);
+				 
+class city{
+	public void banglore() {
+		sytem.out.println("this is bangolare");
+		this.bangolare();
+		
+class student{
+	student(){
+		this ()10;
+		 student (int value){
+			 System.out.println("this is value");
+		 }
+	}
+}
+	}
+}
+						
+			}
+			
+		}
+
+	}
+
+}

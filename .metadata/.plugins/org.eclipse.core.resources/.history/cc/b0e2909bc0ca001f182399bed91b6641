@@ -1,0 +1,5 @@
+package vanshika;
+
+public interface Interface {
+
+}

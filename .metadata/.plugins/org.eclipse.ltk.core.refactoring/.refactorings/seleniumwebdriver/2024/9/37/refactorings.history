@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day1.Constuctor&apos; to &apos;Demo_Constuctor&apos;&#x0D;&#x0A;- Original project: &apos;seleniumwebdriver&apos;&#x0D;&#x0A;- Original element: &apos;day1.Constuctor&apos;&#x0D;&#x0A;- Renamed element: &apos;day1.Demo_Constuctor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Constuctor&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;day1{Constuctor.java[Constuctor" matchStrategy="1" name="Demo_Constuctor" qualified="false" references="true" similarDeclarations="false" stamp="1726144632204" textual="false" version="1.0"/>
+</session>

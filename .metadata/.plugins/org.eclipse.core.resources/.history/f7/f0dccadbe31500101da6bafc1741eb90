@@ -1,0 +1,13 @@
+package testng_demo;
+
+import org.testng.annotations.Test;
+
+public class Assert {
+	
+	@Test
+	void test()
+	{
+		Assert.
+	}
+
+}

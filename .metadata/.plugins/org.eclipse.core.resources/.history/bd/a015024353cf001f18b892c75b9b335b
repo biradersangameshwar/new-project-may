@@ -1,0 +1,16 @@
+package vanshika;
+
+public class Int {
+
+	public static void main(String[] args) {
+	
+		int[]age = {10,20,30,40,50,60,70};
+		System.out.println(age[0]);
+		int len= age.length;
+		System.out.println("this is length of arrau ="+len);
+		for(int i=0;i<age.length;i++);
+		System.out.println(age[1]);
+		for (int i =len-1;i>=0;i--);
+	}
+
+}

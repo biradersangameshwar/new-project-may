@@ -1,0 +1,3 @@
+module demoautomation {
+	requires okio;
+}

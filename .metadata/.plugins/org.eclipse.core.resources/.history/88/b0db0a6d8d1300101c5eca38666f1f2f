@@ -1,0 +1,23 @@
+package imp_java_programms;
+
+public class Largest_num {
+
+	public static void main(String[] args) {
+
+		
+		
+		int max=0;
+		
+		int num[] = {100,7,90};
+		for(int i=0 ;i<num.length ;i++) {
+			if(num[i]>max) {
+				max=num[i];
+			
+			
+			}
+			
+		}
+		System.out.println(max);
+	}
+
+}

@@ -1,0 +1,91 @@
+package methods;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class DemoAutomation {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Desktop\\chromelatest\\chromedriver-win64\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://demo.automationtesting.in/Register.html");
+		
+		Thread.sleep(2000);
+		
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
+		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Birader");
+		
+		driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("sangameshwar");
+		
+		Thread.sleep(2000);
+		
+		driver.findElement(By.xpath("//textarea[@ng-model='Adress']")).sendKeys("3-3-452,kutbiguda,kachiguda,hyd,500027");
+		
+		Thread.sleep(2000);
+		
+		driver.findElement(By.xpath("//input[@ng-model='EmailAdress']")).sendKeys("birader.sangameshwar@gmail.com");
+		
+		driver.findElement(By.xpath("//input[@ng-model='Phone']")).sendKeys("8019653677");
+		
+		Thread.sleep(2000);
+		
+		driver.findElement(By.name("radiooptions")).click();
+		
+		driver.findElement(By.id("checkbox1")).click();
+		
+		driver.findElement(By.id("checkbox2")).click();
+		
+		driver.findElement(By.id("checkbox3")).click();
+		
+		driver.findElement(By.id("msdd")).click();
+		
+		Thread.sleep(2000);
+		
+		driver.findElement(By.xpath("//a[text()='Hindi']")).click();
+		
+		WebElement ele = driver.findElement(By.id("Skills"));
+		
+		Select sel = new Select(ele);
+		sel.selectByValue("SQL");
+		
+		WebElement country = driver.findElement(By.id("countries"));
+		
+		Select sel1 = new Select(country);
+		sel1.selectByValue("Select Country");
+		
+		driver.findElement(By.id("select2-country-container")).click();
+		
+		driver.findElement(By.xpath("//span[@title='India']")).click();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

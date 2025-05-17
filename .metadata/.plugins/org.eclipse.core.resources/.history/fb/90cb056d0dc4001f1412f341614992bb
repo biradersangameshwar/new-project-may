@@ -1,0 +1,10 @@
+package vanshika;
+
+public class Fibonacoi_series {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

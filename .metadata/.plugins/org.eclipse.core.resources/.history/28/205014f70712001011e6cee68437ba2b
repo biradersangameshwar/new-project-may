@@ -1,0 +1,22 @@
+
+public class rev {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "selenium";
+		char[] c =str.toCharArray();
+		for(int i=0;i<str.length();i++) {
+			System.out.print(c[i]);
+		}
+		
+		
+		/*StringBuilder sb = new StringBuilder(str);
+		System.out.println(sb.reverse().toString());
+		
+		StringBuffer sbs = new StringBuffer(str);
+		System.out.println(sbs.reverse().toString());
+*/
+	}
+
+}

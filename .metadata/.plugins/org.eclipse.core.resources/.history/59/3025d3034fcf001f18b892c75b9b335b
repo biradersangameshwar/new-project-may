@@ -1,0 +1,18 @@
+package vanshika;
+
+public class Int_string {
+
+	public static void main(String[] args) {
+
+		int num =123;
+		int num2 =456;
+		int num3 =789;
+		System.out.println(num);
+		System.out.println(num2);
+		System.out.println(num3);
+		
+		String str =String.valueoff (num);
+		System.out.println(str);
+	}
+
+}

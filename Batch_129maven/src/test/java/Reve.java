@@ -1,0 +1,25 @@
+
+public class Reve {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+    /*  String str = "this is beginning";
+      int len = str.length();
+      char ch[]= str.toCharArray();
+      
+      for(int i=len-1;i>=0;i--) {
+    	  System.out.print(ch[i]);*/
+		
+		String str = "sangameshwar";
+		int len = str.length();
+		System.out.println(len);
+		char ch[] = str.toCharArray();
+		for(int i=len-1;i>=0;i--) {
+			System.out.print(ch[i]);
+		
+		
+		
+      }  	  
+      }
+}

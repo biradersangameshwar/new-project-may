@@ -1,0 +1,18 @@
+
+public class Reverse_prog {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "This is beginning";
+		//String[] wrd = str.split(" ");
+		String[] wrd = str.split(" ", 4);
+		
+		for(int i=wrd.length-1; i>=0; i--) {
+			System.out.print(wrd[i]+ " ");
+		}
+		
+
+	}
+
+}

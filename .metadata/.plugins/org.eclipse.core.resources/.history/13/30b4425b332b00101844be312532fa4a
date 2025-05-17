@@ -1,0 +1,28 @@
+package day1;
+
+public class Rev {
+
+	public static void main(String[] args) {
+		String s = "ssaagggalmnzqr";
+		char[] arr = s.toCharArray();
+		int len = s.length();
+		char[] ar1 = new char[len];
+		for(int i=s.length()-1;i>0;i--) {
+			ar1 = ar1+s.charAt(i);
+		}
+			
+		}
+		
+		
+		
+		
+		
+		/*int len = s.length();
+		String rev = "";
+        for(int i=len-1;i>0;i--) {
+        	rev=rev+s.charAt(i);
+        }
+        System.out.println(rev);
+	}*/
+
+}
