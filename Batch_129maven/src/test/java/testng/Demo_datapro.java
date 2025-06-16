@@ -22,7 +22,7 @@ public class Demo_datapro {
 	 // System.out.println(title);
 	 String actualttle = driver.getTitle();
 	 System.out.println(actualttle);
-	 String expectedttle = "Account Loin";
+	 String expectedttle = "Account Login";
      Assert.assertEquals(actualttle, expectedttle, expectedttle);
 	 driver.close();
 	 

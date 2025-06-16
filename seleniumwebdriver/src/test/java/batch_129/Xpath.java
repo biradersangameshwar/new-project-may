@@ -11,13 +11,16 @@ public class Xpath {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://online.actitime.com/speedwaytech/login.do");
+		driver.get("https://admin:admin123@the-internet.herokuapp.com/basic_auth");
+
 		
-		driver.manage().window().maximize();
+		//driver.get("https://online.actitime.com/speedwaytech/login.do");
 		
-		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("speedwaytech74@gamil.com");
+		//driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("//input[contains(@name, 'pwd')]")).sendKeys("Sujeet@123");
+		//driver.findElement(By.xpath("//input[@name='username']")).sendKeys("speedwaytech74@gamil.com");
+		
+		//driver.findElement(By.xpath("//input[contains(@name, 'pwd')]")).sendKeys("Sujeet@123");
 		
 		
 

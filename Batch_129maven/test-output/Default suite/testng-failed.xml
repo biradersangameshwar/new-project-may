@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.Screenshot_without_testng">
+      <class name="testng.Demo_datapro">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="scrnshotforlogin"/>
+          <include name="testlogin" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- testng.Screenshot_without_testng -->
+      </class> <!-- testng.Demo_datapro -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

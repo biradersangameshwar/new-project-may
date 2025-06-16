@@ -8,32 +8,51 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Failed suite [Default suite]</th></tr>
-<tr><td><a href="#t0">Default test(failed)</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">6,784</td><td></td><td></td></tr>
+<tr><th colspan="8">ProjectSuite</th></tr>
+<tr><td><a href="#t0">LoginTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,672</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">SearchTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,740</td><td></td><td></td></tr>
+<tr><td><a href="#t2">OrderTests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,486</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">14,898</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Failed suite [Default suite]</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test(failed) &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testng_demo.Demo_extent_reports</td><td><a href="#m0">getTestResult</a></td><td rowspan="1">1747136890503</td><td rowspan="1">10</td></tr><tr><th colspan="4">Default test(failed) &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testng_demo.Demo_extent_reports</td><td><a href="#m1">Scrnshot</a></td><td rowspan="1">1747136883799</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m2">skipTestExample</a></td><td rowspan="1">1747136890484</td><td rowspan="1">6</td></tr><tr><th colspan="4">Default test(failed) &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">testng_demo.Demo_extent_reports</td><td><a href="#m3">flushReport</a></td><td rowspan="1">1747136890648</td><td rowspan="1">-1747136890648</td></tr><tr class="skippedeven"><td><a href="#m4">getTestResult</a></td><td rowspan="1">1747136890538</td><td rowspan="1">-1747136890538</td></tr><tr class="skippedeven"><td><a href="#m5">setupBrowser</a></td><td rowspan="1">1747136890523</td><td rowspan="1">-1747136890523</td></tr><tr class="skippedeven"><td><a href="#m6">teatDown</a></td><td rowspan="2">1747136890549</td><td rowspan="2">-1747136890549</td></tr><tr class="skippedeven"><td><a href="#m7">teatDown</a></td></tr><tr><th colspan="4">Default test(failed) &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testng_demo.Demo_extent_reports</td><td><a href="#m8">googletestFail</a></td><td rowspan="1">1747136890527</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ProjectSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginTests &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testng_demo.Login</td><td><a href="#m0">teardown</a></td><td rowspan="1">1748755255378</td><td rowspan="1">337</td></tr><tr><th colspan="4">LoginTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testng_demo.Login</td><td><a href="#m1">invalidLogin</a></td><td rowspan="1">1748755255385</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">validLogin</a></td><td rowspan="1">1748755255335</td><td rowspan="1">28</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">SearchTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testng_demo.SearchTest</td><td><a href="#m3">searchProduct</a></td><td rowspan="1">1748755259241</td><td rowspan="1">5</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">OrderTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testng_demo.OrderPlacementTest</td><td><a href="#m4">placeOrder</a></td><td rowspan="1">1748755262680</td><td rowspan="1">13</td></tr></tbody>
 </table>
-<h2>Default test(failed)</h2><h3 id="m0">testng_demo.Demo_extent_reports#getTestResult</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=skipTestExample status=FAILURE method=Demo_extent_reports.skipTestExample()[pri:0, instance:testng_demo.Demo_extent_reports@16ec5519] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;this.test&quot; is null
-	at testng_demo.Demo_extent_reports.getTestResult(Demo_extent_reports.java:81)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testng_demo.Demo_extent_reports#Scrnshot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Cannot inject @Test annotated Method [Scrnshot] with [class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testng_demo.Demo_extent_reports#skipTestExample</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.getExtent()&quot; because &quot;this.test&quot; is null
-	at testng_demo.Demo_extent_reports.skipTestExample(Demo_extent_reports.java:75)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testng_demo.Demo_extent_reports#flushReport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testng_demo.Demo_extent_reports#getTestResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testng_demo.Demo_extent_reports#setupBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testng_demo.Demo_extent_reports#teatDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testng_demo.Demo_extent_reports#teatDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">testng_demo.Demo_extent_reports#googletestFail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)&quot; because &quot;this.test&quot; is null
-	at testng_demo.Demo_extent_reports.getTestResult(Demo_extent_reports.java:81)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTests</h2><h3 id="m0">testng_demo.Login#teardown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [547e8d3bfc066198c6bc9bc0ede0ed5e, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50934/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:446)
+	at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:435)
+	at testng_demo.BaseTest.teardown(BaseTest.java:33)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
+	... 26 more
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)&quot; because &quot;this.client&quot; is null
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:398)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	... 3 more
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testng_demo.Login#invalidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testng_demo.Login#validLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SearchTests</h2><h3 id="m3">testng_demo.SearchTest#searchProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OrderTests</h2><h3 id="m4">testng_demo.OrderPlacementTest#placeOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
